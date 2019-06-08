@@ -1,13 +1,21 @@
 extends ../layouts/common
 block contain
-    h1 User list
-    a(href="/users/create") New
+    span.mr-3.h1 User
+    a.mb-3.btn.btn-primary(href='/users/create', role='button') New user
     form(action="/users/search", method="GET")
-        input(type="text", name="q", id="searchBox", value= val)
-        button Search
-    ul
+        .form-group
+            .input-group.mb-3
+                input.form-control(type='text', name="q",value= val, placeholder="Username....", aria-label="Username....", aria-describedby='button-addon2')
+                .input-group-append
+                    button#button-addon2.btn.btn-outline-secondary(type='button') Search
+    table.table
+        tr
+            th Name
+            th Phone
+            th Actions
         each user in users
-            li
-                span= user.name
-                span &nbsp;
-                a(href="/users/" + user.id) View
+            tr
+                td= user.name
+                td= user.phone
+                td
+                    a.btn.btn-light(href="/users/" + user.id) View
