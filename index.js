@@ -12,7 +12,8 @@ app.use(express.urlencoded({ extended: true })) // for parsing application/x-www
 var users = [
     { id: 1, name: 'Viet' },
     { id: 2, name: 'Hung' },
-    { id: 3, name: 'Huy' }
+    { id: 3, name: 'Huy' },
+    { id: 4, name: 'Phu' }
 ];
 // localhost::3000
 app.get('/', function (req, res) {
