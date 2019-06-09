@@ -4,10 +4,8 @@ block contain
     a.mb-3.btn.btn-primary(href='/users/create', role='button') New user
     form(action="/users/search", method="GET")
         .form-group
-            .input-group.mb-3
-                input.form-control(type='text', name="q",value= val, placeholder="Username....", aria-label="Username....", aria-describedby='button-addon2')
-                .input-group-append
-                    button#button-addon2.btn.btn-outline-secondary(type='button') Search
+            input.form-control(type='text', name="q",value= val)
+            button#button-addon2.btn.btn-outline-secondary Search
     table.table
         tr
             th Name

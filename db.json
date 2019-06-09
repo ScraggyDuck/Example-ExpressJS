@@ -8,7 +8,9 @@
     {
       "name": "Scraggy",
       "phone": "0905377903",
-      "id": "0XYfMljS_"
+      "id": "0XYfMljS_",
+      "email": "ScraggyDuck@gmail.com",
+      "password": "123456"
     }
   ]
 }
