@@ -13,10 +13,10 @@
       "password": "e10adc3949ba59abbe56e057f20f883e"
     },
     {
-      "name": "dsafdsaf",
-      "phone": "asdfasdf",
-      "id": "hzDKwFs_J",
-      "avatar": "uploads\\2c5a452b8141795790e69adce21683e9"
+      "name": "Quoc Viet",
+      "phone": "0905377903",
+      "id": "bRAfEIPJs",
+      "avatar": "uploads\\1f2912bb734967ccf92a524f1d6eecfa"
     }
   ],
   "products": [
@@ -619,6 +619,15 @@
       "name": "Salmon - Atlantic, Skin On",
       "image": "http://lorempixel.com/320/240",
       "description": "velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "cR1gSe1cp",
+      "cart": {
+        "97f33219-5c4f-4ccf-9411-21592169f7df": 10,
+        "bacda83f-f68f-494a-a99e-45f34f440ca3": 2
+      }
     }
   ]
 }
