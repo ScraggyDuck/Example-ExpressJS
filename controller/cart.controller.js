@@ -19,8 +19,5 @@ module.exports.add = function(req, res, next){
         .set('cart.' + productId, count + 1)
         .write();
 
-    var carts = db.get('sessions')
-                .value().cart;
-    
     res.redirect('/products');
 };
